@@ -1,40 +1,57 @@
-* { margin:0px; padding:0px; }
+*,::after,::before{box-sizing:border-box}
+html{font-size:19px}
+body{display:flex;min-height:100vh;flex-direction:column;margin:0;color:#333;font-family: Tahoma, sans-serif;line-height:1.5;}
+main{flex:1}
 
-.clear {clear: both;}
+header{background-color:#fff;border-bottom:1px solid #eaeaea;margin-bottom:5px}
+footer{background-color:#fff;border-top:1px solid #eaeaea;font-size:80%;text-align:center;padding:1rem}
+
+footer a,main a{color:#333;text-decoration:none;}
+footer a:hover,main a:hover{background-color:#eee}
+
+header a{display:inline-block;text-decoration:none;color:#333;padding:.7rem 1rem;font:bold .9rem}
+header a:hover{background-color:#eee}@media print{header{display:none}body{display:block}}
+
+nav {float: right;}
+header div, section {max-width: 40rem; margin: 0 auto;}
+header div img.logo{width: 46px;height: 48px; padding-top:10px;}
+
+section{padding:1rem}
+section p{text-align:justify;hyphens:auto}
+section#offer h3{text-decoration: underline; margin-bottom: 0px;font-size:1rem;font-weight: normal;}
+section#contact #foto{float: left; margin-right:30px; margin-bottom: 20px; }
+
+section.intro p{text-align: center;}
+
+@media only screen and (max-width:600px){html{font-size:16px}}
+
+/*header .links{display:flex;justify-content:flex-end;flex:1}.cont{display:flex}.col{max-width:40rem;margin:0 auto}
+
+pre{line-height:1.5;overflow:auto}
+h1{margin-top:2rem;font-size:2rem}
+header img.logo{ display:inline-block; }
+*/
+/*
+
+header {box-shadow: 1px 2px 18px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+    display: block;}
+
+footer {display: block; min-height: 60px;}
 
 a:link, a:visited,a:active { color: #b1c903;  text-decoration:none;}
 a:hover{color: #b1c903; text-decoration:underline;}
 strong{font-weight:bold; color: #7D4A4A;}
 
-body { background: #fff; font-family: Tahoma, sans-serif; color: #313131;}
-div#page { margin: 0 auto; display: block; width: 760px;  text-align:left; background: transparent; }
+body { background: #fff; font-family: Tahoma, sans-serif; color: #313131; font-size: 19px;}
+
 
 p.warning { text-align: center;}
 h1,h2,h3,h4{ color:#313131; }
-
-/* content */
- /* main */
-div#main{background: transparent url(../images/main_kd_architekt.png) no-repeat top left; display: block; height: 520px; margin-top: 50px;}
-div#main div#contact{padding: 360px  0  0 450px;}
-div#main div#contact h1{ font-size: 20px; text-align: right;}
-div#main div#contact h2{ font-size: 18px; text-align: right;}
-div#main div#contact p{padding-top: 20px;}
-
-div#main div#menu ul{list-style-image:none; list-style-type:none;}
-
- /* project */
- 
- div#project {text-align: center;}
- div#project #header {text-align: left;}
+*/
+ /*
  div#project #header #contact{ background: transparent url(../images/project_kd_architekt.png) no-repeat top left; display: block; height: 120px; margin-top: 10px; }
- div#project #header #contact h2,   div#project #header #contact h3 { margin-left: 500px;}
  
  div#project h1 { font: bold 20px "Century Gothic", Arial, Helvetica, sans-serif; text-decoration:underline; margin:20px 0; text-align: left; }
- div#project div.description {margin: 20px 0;}
- div#project div.description strong {font-weight:bold; color: #b1c903;}
- div#project div.description ul li strong {margin-right: 20px; }
- div#project div.description ul {list-style-image:none; list-style-type:none; margin:0; padding:0; text-align: left;}
  div#project div.images {margin: auto 0;}
-  
- div#project div#navigation ul {list-style-image:none; list-style-type:none; margin:20px 0; padding:0; text-align: left;}
- div#project div#navigation ul li.next{float:right;}
+ */
