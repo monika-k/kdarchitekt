@@ -17,12 +17,13 @@ header div, section {max-width: 40rem; margin: 0 auto;}
 header div img.logo{width: 46px;height: 48px; padding-top:10px;}
 
 section{padding:1rem}
+section a{ border-bottom: 1px solid #eee; }
 section p{text-align:justify;hyphens:auto}
 section#offer h3{text-decoration: underline; margin-bottom: 0px;font-size:1rem;font-weight: normal;}
 section#contact #foto{float: left; margin-right:30px; margin-bottom: 20px; }
 
 section.intro p{text-align: center;}
-
+section.intro img{width: 300px;}
 @media only screen and (max-width:600px){html{font-size:16px}}
 
 /*header .links{display:flex;justify-content:flex-end;flex:1}.cont{display:flex}.col{max-width:40rem;margin:0 auto}
